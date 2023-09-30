@@ -1,6 +1,6 @@
 {
-  "name": "sushi",
-  "version": "0.0.0",
+  "name": "convergence",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "dotenv -- turbo run build",

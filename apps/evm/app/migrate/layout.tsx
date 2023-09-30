@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'SushiMigrate 🍣',
+  title: 'Convergence Migrate  ',
 }
 
 export default function MigrateLayout({ children }: { children: React.ReactNode }) {

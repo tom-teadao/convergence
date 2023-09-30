@@ -72,7 +72,7 @@ const RP2ClaimPage = () => {
             Please revoke any token approvals you have on RouteProcessor2. Once you have revoked approvals, you will be
             able to claim any lost funds resulting from the exploit.
           </p>
-          <List className="py-6 relative">
+          <List className="relative py-6">
             <List.Control>
               {!address ? (
                 <List.KeyValue flex title="No user connected">
@@ -109,7 +109,7 @@ const RP2ClaimPage = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button as={Fragment}>
-                  <h4 className="flex gap-2 items-center">
+                  <h4 className="flex items-center gap-2">
                     <ChevronRightIcon width={20} height={20} className={open ? 'rotate-90' : ''} />
                     My funds were lost in this exploit. What can I do?
                   </h4>
@@ -140,7 +140,7 @@ const RP2ClaimPage = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button as={Fragment}>
-                  <h4 className="flex gap-2 items-center">
+                  <h4 className="flex items-center gap-2">
                     <ChevronRightIcon width={20} height={20} className={open ? 'rotate-90' : ''} />
                     What is RouteProcessor2 Vulnerability? What happened?
                   </h4>
@@ -165,7 +165,7 @@ const RP2ClaimPage = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button as={Fragment}>
-                  <h4 className="flex gap-2 items-center">
+                  <h4 className="flex items-center gap-2">
                     <ChevronRightIcon width={20} height={20} className={open ? 'rotate-90' : ''} />
                     Can we use Sushi safely now?
                   </h4>
@@ -173,7 +173,7 @@ const RP2ClaimPage = () => {
                 <Disclosure.Panel>
                   <p>
                     The user interface has been updated to remove the affected contract. It is safe to trade and provide
-                    liquidity on sushi.
+                    liquidity on convergence.
                   </p>
                   <p>
                     If you have tokens approved for RouteProcessor2 on any network, you should revoke the approvals as
@@ -187,7 +187,7 @@ const RP2ClaimPage = () => {
             {({ open }) => (
               <>
                 <Disclosure.Button as={Fragment}>
-                  <h4 className="flex gap-2 items-center">
+                  <h4 className="flex items-center gap-2">
                     <ChevronRightIcon width={20} height={20} className={open ? 'rotate-90' : ''} />
                     My funds have been hacked but I am not seeing any claims available
                   </h4>

@@ -40,9 +40,9 @@ export const PoolFilters: FC = () => {
             size="sm"
             pressed={Boolean(protocols?.includes(Protocol.SUSHISWAP_V3))}
           >
-            <span>🍣</span>{' '}
+            <span> </span>{' '}
             <span>
-              SushiSwap <sup>v3</sup>
+              Convergence <sup>v3</sup>
             </span>
           </Toggle>
           <Toggle
@@ -50,9 +50,9 @@ export const PoolFilters: FC = () => {
             size="sm"
             pressed={Boolean(protocols?.includes(Protocol.SUSHISWAP_V2))}
           >
-            <span>🍣</span>{' '}
+            <span> </span>{' '}
             <span>
-              SushiSwap <sup>v2</sup>
+              Convergence <sup>v2</sup>
             </span>
           </Toggle>
 

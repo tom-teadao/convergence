@@ -16,21 +16,21 @@ export const TableSection: FC = () => {
             <Tab as={Fragment}>
               {({ selected }) => (
                 <Toggle size="sm" pressed={selected}>
-                  SushiSwap 🍣
+                  Convergence  
                 </Toggle>
               )}
             </Tab>
             <Tab as={Fragment}>
               {({ selected }) => (
                 <Toggle size="sm" pressed={selected}>
-                  SushiPay 💸
+                  Convergence Pay 💸
                 </Toggle>
               )}
             </Tab>
             <Tab as={Fragment}>
               {({ selected }) => (
                 <Toggle size="sm" pressed={selected}>
-                  Sushi Vault 🏦
+                  Convergence Vault 🏦
                 </Toggle>
               )}
             </Tab>
