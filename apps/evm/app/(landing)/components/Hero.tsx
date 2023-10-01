@@ -42,7 +42,7 @@ export const Hero: FC = () => {
           <div className="flex flex-col">
             <div className="flex flex-col">
               <h1 className={typographyVariants({ variant: 'h1' })}>
-                Buy and Sell Instantly on Sushi. <span className="text-blue"> {TITLES[index]}.</span>
+                Buy and Sell Instantly on Convergence. <span className="text-blue"> {TITLES[index]}.</span>
               </h1>
               <p className={typographyVariants({ variant: 'lead', className: 'max-w-[500px]' })}>
                 Unlock the world of cryptocurrency trading. Experience the freedom to trade over 400 tokens instantly,
